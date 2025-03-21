@@ -1,0 +1,5 @@
+<ul>
+  @for (item of usersEmit; track item) {
+  <li (click)="selectUser(usersEmit)">{{ item.name }} {{ item.email }}</li>
+  }
+</ul>
